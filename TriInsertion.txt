@@ -1,0 +1,9 @@
+Tri par insertion :                                                                                                                                                                                              
+
+1- Initialisation : Le premier élément de la liste est considéré comme trié. Donc, on commence à trier à partir du deuxième élément.
+
+2- Boucle : On parcourt les éléments non triés de la liste. Pour chaque élément, on le compare avec les éléments déjà triés. On insère cet élément à la bonne position dans la liste triée.
+
+3- Insertion : On insère l'élément non trié à la bonne position dans la partie triée de la liste en déplaçant les éléments plus grands (ou plus petits, selon l'ordre de tri) d'une position vers la droite jusqu'à ce qu'on trouve sa place appropriée.
+
+4- Répétition : On répète les étapes 2 et 3 jusqu'à ce que tous les éléments soient triés.

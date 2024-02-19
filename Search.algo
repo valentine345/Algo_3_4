@@ -1,0 +1,18 @@
+ALGORITHM Search
+VAR
+    T: ARRAY_OF type[];
+    chiffre:INTEGER;
+    resultat:BOOLEAN := FALSE;
+BEGIN
+FOR i FROM 1 TO T. length  STEP 1 DO
+    IF (T[i]=chiffre) THEN
+    resultat:= TRUE;
+        
+    END_IF
+END_FOR
+    IF (resultat=TRUE) THEN
+        write("existe")
+        ELSE
+        write("il n'existe pas")
+    END_IF
+END

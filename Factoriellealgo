@@ -1,0 +1,9 @@
+FUNCTION Factorielle(n) : INTEGER
+VAR
+    
+BEGIN
+    IF (n=1) THEN
+        RETURN 1
+    END_IF
+    RETURN n Factorielle
+END
